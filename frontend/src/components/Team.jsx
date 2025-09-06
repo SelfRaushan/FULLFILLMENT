@@ -12,44 +12,27 @@ const team = [
 ];
 
 const Team = () => (
-  <div style={{ textAlign: "center", margin: "40px 0" }}>
+  <div className="text-center my-10">
+    <hr className="w-full mx-auto mb-8 border-t border-gray-900" />
     <h1 className="text-4xl font-bold mb-4">
       MEET OUR TEAM
     </h1>
-    <hr style={{ width: "60%", margin: "0 auto 32px", border: "1px solid #ccc" }} />
-    <div style={{
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "flex-start",
-      gap: "100px",
-      marginBottom: 40,
-      flexWrap: "wrap"
-    }}>
+    <hr className="w-3/5 mx-auto mb-8 border-t border-gray-900" />
+    <div className="flex justify-center items-start gap-24 mb-10 flex-wrap">
       {team.map((member) => (
-        <div key={member.name} style={{ textAlign: "center" }}>
+        <div key={member.name} className="text-center">
           <img
             src={member.img}
             alt={member.name}
-            style={{
-              width: 220,
-              height: 260,
-              objectFit: "cover",
-              borderRadius: 16,
-              marginBottom: 24,
-            }}
+            className="w-56 h-64 object-cover rounded-lg mb-6"
           />
-          <div style={{
-            marginTop: 8,
-            fontWeight: 700,
-            letterSpacing: 1,
-            fontSize: 15
-          }}>
+          <div className="mt-2 font-bold tracking-wide text-sm">
             {member.name}
           </div>
         </div>
       ))}
     </div>
-    <hr style={{ width: "60%", margin: "0 auto", border: "1px solid #ccc" }} />
+    <hr className="w-3/5 mx-auto border-t border-gray-900" />
   </div>
 );
 

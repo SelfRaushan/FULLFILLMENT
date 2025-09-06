@@ -8,9 +8,10 @@ const ServicesGrid = () => {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-6 md:px-12 lg:px-20">
+        <hr className="w-full mx-auto mb-8 border-t border-gray-900" />
         {/* Section Heading */}
-        <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-12">
-          Our Exceptional Services
+        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
+          <span className="font-extrabold"> Our </span> Exceptional Services
         </h2>
 
         {/* Grid */}
@@ -77,6 +78,7 @@ const ServicesGrid = () => {
           </div>
         </div>
       </div>
+      <hr className="w-full mx-auto mb-8 border-t border-gray-900 mt-10" />
     </section>
   );
 };

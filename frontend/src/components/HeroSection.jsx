@@ -28,7 +28,9 @@ const HeroSection = () => {
           supply chain effectiveness and logistics performance for companies.
         </p>
       </div>
+      
     </section>
+    
   );
 };
 

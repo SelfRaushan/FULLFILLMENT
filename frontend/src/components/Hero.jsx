@@ -8,14 +8,17 @@ const LogisticsSection = () => {
       {/* Top content */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* Text */}
-        <div>
-          <h2 className="text-5xl font-bold mb-8 leading-[1.1]">
-            Best and Reliable 3PL Services <span className="font-extrabold">Provider</span>
+        <div className="w-[60%] ml-18">
+          <h2 className="text-4xl text-center font-bold leading-[1.1]" style={{ marginBottom: "2px" }}>
+            Best and Reliable 3PL
           </h2>
-          <ul className="text-lg list-disc ml-8 space-y-4">
-            <li>We provide dependable logistics services, earning client trust through on-time delivery, accurate order fulfillment, and safe storage.</li>
-            <li>We create custom logistics plans with our clients to align goals and achieve success.</li>
-            <li>To ensure a smooth collaboration, our team provides individualized support, proactive issue resolution, and open communication.</li>
+          <h2 className="text-4xl text-center font-bold leading-[1.1] " style={{ marginBottom: "2px" }}>
+            Services <span className="font-extrabold">Provider</span>
+          </h2>
+          <ul className="text-lg list-disc ml-8 mt-9.5">
+            <li className="mb-5 text-gray-600">We provide dependable logistics services, earning client trust through on-time delivery, accurate order fulfillment, and safe storage.</li>
+            <li className="mb-5 text-gray-600">We create custom logistics plans with our clients to align goals and achieve success.</li>
+            <li className="mb-5 text-gray-600">To ensure a smooth collaboration, our team provides individualized support, proactive issue resolution, and open communication.</li>
           </ul>
         </div>
 
